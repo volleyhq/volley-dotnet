@@ -8,7 +8,7 @@ namespace Volley
         /// <summary>
         /// SDK version.
         /// </summary>
-        public const string SDKVersion = "1.0.0";
+        public const string SDKVersion = "1.0.1";
     }
 }
 

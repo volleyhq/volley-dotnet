@@ -10,7 +10,7 @@
     <Description>Official .NET SDK for the Volley API</Description>
     <Copyright>Copyright © Volley 2025</Copyright>
     <PackageId>Volley</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/volleyhq/volley-dotnet</PackageProjectUrl>
     <RepositoryUrl>https://github.com/volleyhq/volley-dotnet</RepositoryUrl>
@@ -18,8 +18,13 @@
     <PackageTags>volley;webhooks;api;sdk</PackageTags>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
